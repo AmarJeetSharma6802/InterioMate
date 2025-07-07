@@ -1119,3 +1119,15 @@ picture {
     margin-top: 4rem;
 }
 }
+@media (min-width: 1100px) and (max-width: 1480px) {
+  .first-center {
+    max-width: 90vw;
+    margin: auto;
+}
+.heading {
+    max-width: 100%;
+}
+.aboutCompanyImg{
+  width: 45%;
+}
+}
