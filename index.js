@@ -12,18 +12,18 @@ menu.addEventListener('click', () => {
 // btnForm.addEventListener("click",()=>{
 //     overlay.classList.add("active")
 // })
-// btnForm.forEach((buttons)=>{
-//     buttons.addEventListener("click",()=>{
-//         overlay.classList.add("active")
-//     })
-// })
-// closeBtn.addEventListener("click",()=>{
-//     overlay.classList.remove("active")
-// })
-//      setTimeout(()=>{
-//        overlay.classList.add("active")
+btnForm.forEach((buttons)=>{
+    buttons.addEventListener("click",()=>{
+        overlay.classList.add("active")
+    })
+})
+closeBtn.addEventListener("click",()=>{
+    overlay.classList.remove("active")
+})
+     setTimeout(()=>{
+       overlay.classList.add("active")
 
-//  },2000)
+ },2000)
 const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true, // Allow looping
