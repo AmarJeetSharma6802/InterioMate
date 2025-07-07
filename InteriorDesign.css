@@ -832,6 +832,9 @@ padding-top: 2rem;
 .map{
   width: 100%;
 }
+.carousel-inner{
+  width: 100%;
+}
 
 
 @media (max-width:850px) {
@@ -874,9 +877,12 @@ nav{
   display: none;
 }
 .heading-btn{
-display: block;
- padding: 50px 0px;
- margin-left: 45%;
+display: flex;
+justify-content: center;
+
+}
+.first-content-form-details {
+  padding-top: 12rem;
 }
 .thid-h1 {
   font-size: 2.2rem;
@@ -1012,6 +1018,10 @@ text-align: justify;
 .seventh-page{
   padding: 10px;
 }
+.contact-map{
+  width: 100%;
+}
+
 }
 
 @media (min-width: 320px) and (max-width: 470px) {
@@ -1053,4 +1063,34 @@ font-size: 1.6rem;
   font-size: 1.8rem;
 }
  
+}
+
+@media (min-width: 850px) and (max-width: 1100px) {
+  .first-content-form-details{
+    flex-direction: column;
+    align-items: center;
+  }
+  .left-side,.right-side {
+    width: 100%;
+}
+.heading{
+max-width: 100%;
+text-align: center;
+}
+.heading-para{
+  text-align: center;
+}
+.right-side{
+  display: flex;
+  justify-content: center;
+}
+/* .heading-form{
+  margin-left: 11rem;
+} */
+.companyImg{
+  padding: 2rem;
+}
+.aboutCompanyImg{
+  width: 45%;
+}
 }
