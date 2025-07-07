@@ -829,6 +829,10 @@ padding-top: 2rem;
   background-color:  #1877F2;
 }
 
+.map{
+  width: 100%;
+}
+
 
 @media (max-width:850px) {
   header{
@@ -885,7 +889,7 @@ display: block;
   font-size: 1.3rem;
 }
 .companyImg {
-  padding:4rem;
+  padding:2rem;
   flex-direction: column;
   align-items: center;
   gap: 25px;
@@ -950,9 +954,7 @@ display: block;
   width: 95%;
   
 }
-iframe{
-  margin-left: 2rem;
-}
+
 .real-feedback-h2 {
   font-size: 2.3rem;
   padding-left: 3.8rem;
@@ -964,17 +966,57 @@ iframe{
 .footer {
   flex-direction: column;
 }
+.service-content {
+    max-width: 100vw;
+    padding: 15px;
+}
+.service-para2 {
+    padding: inherit;
+}
+.fivth-serive-para{
+  text-align: justify;
+}
+
+.aboutContent{
+ max-width: 100%;
+ padding: 1.2rem;
+  
+}
+.about-para{
+  text-align: justify;
+}
+.thid-h1{
+  left: 10px;
+}
+.third-para{
+left: 12px;
+text-align: justify;
+}
+.c-carousel__controls {
+   position: static; 
+    inset: 0;
+    display: flex;
+    justify-content:inherit;
+    align-items: center;
+    float: right;
+}
+.c-carousel__wrapper.swiper {
+        margin:0px 0px;
+        position: static;
+    }
+    .feedback-video {
+    max-width: 95vw;
+    margin: auto;
+    padding-top: 0rem;
+}
+.seventh-page{
+  padding: 10px;
+}
 }
 
 @media (min-width: 320px) and (max-width: 470px) {
-  iframe{
-    width: 320px;
-    height: 400px;
-    margin-left: inherit;
-  }
-  .contact-map {
-    width: 100%;
-}
+  
+ 
 .insta-whatsaap-face {
   gap: 5px;
 }
@@ -988,20 +1030,27 @@ iframe{
   grid-template-columns: repeat(1, minmax(200px, 1fr));
   place-items: center;
 }
-.caroucel-top-space {
-  margin-top: 0rem;
+
+.heading{
+font-size: 1.6rem;
+
 }
-.c-carousel__wrapper.swiper {
-  margin: 5px 55px;
-  position: static;
+.heading-btn {
+        display: block;
+        padding: inherit;
+        margin-left: 35%;
+    }
+
+.first-content-form-details {
+        padding-top: 15rem;
+        flex-direction: column;
+    
 }
-.wrannty {
-  height: 395px;
-  padding: 8px;
-  width: 326px;
+.c-carousel__item.swiper-slide {
+  max-width:100%;
 }
-.wrannty-caroucel-h3 ul li{
-  font-size: 16px;
-  max-width: 450px;
+.thid-h1 {
+  font-size: 1.8rem;
 }
+ 
 }
